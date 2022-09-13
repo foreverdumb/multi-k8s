@@ -1,0 +1,14 @@
+apiVersion: v1
+
+kind: PersistentVolumeClaim
+
+metadata:
+  name: persistence-volume-claim-postgres
+
+spec:
+  resources:
+    requests:
+      storage: 1Gi
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteOnce

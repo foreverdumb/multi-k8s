@@ -2,7 +2,7 @@
 
 #Building images for setting up local k8s cluster
 docker build -t home1docker1/multi-client:latest -f Dockerfile .
-cd ..; cd ./server; docker build -t home1docker1/multi-server:latest -f Dockerfile . 
+cd ./server; docker build -t home1docker1/multi-server:latest -f Dockerfile . 
 cd ..; cd ./worker; docker build -t home1docker1/multi-worker:latest -f Dockerfile .
 
 #Building images for setting up prod k8s cluster

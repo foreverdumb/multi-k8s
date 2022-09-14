@@ -20,10 +20,10 @@ spec:
           image: redis:latest
           resources:
             requests:
-              memory: "500Mi"
-              cpu: "100m"
-            limits:
               memory: "600Mi"
               cpu: "150m"
+            limits:
+              memory: "605Mi"
+              cpu: "155m"
           ports:
             - containerPort: 6379

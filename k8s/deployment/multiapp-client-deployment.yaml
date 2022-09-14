@@ -20,10 +20,10 @@ spec:
           image: stephengrider/multi-client
           resources:
             requests:
-              memory: "500Mi"
-              cpu: "100m"
+              memory: "600Mi"
+              cpu: "150m"
             limits:
-              memory: "500Mi"
-              cpu: "100m"
+              memory: "605Mi"
+              cpu: "155m"
           ports:
             - containerPort: 3000

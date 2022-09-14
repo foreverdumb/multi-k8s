@@ -20,11 +20,11 @@ spec:
           image: stephengrider/multi-worker
           resources:
             requests:
-              memory: "500Mi"
-              cpu: "100m"
-            limits:
               memory: "600Mi"
               cpu: "150m"
+            limits:
+              memory: "605Mi"
+              cpu: "155m"
           env:
             - name: REDIS_HOST
               value: redis-service

@@ -19,6 +19,9 @@ spec:
         - name: multiapp-server
           image: cygnetops/multi-server-pgfix-5-11
           resources:
+            requests:
+              memory: "600Mi"
+              cpu: "150m"
             limits:
               memory: "500Mi"
               cpu: "100m"

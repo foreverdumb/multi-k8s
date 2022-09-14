@@ -19,6 +19,9 @@ spec:
         - name: multiapp-worker
           image: stephengrider/multi-worker
           resources:
+            requests:
+              memory: "600Mi"
+              cpu: "150m"
             limits:
               memory: "500Mi"
               cpu: "100m"

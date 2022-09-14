@@ -19,6 +19,9 @@ spec:
         - name: multiapp-redis
           image: redis:latest
           resources:
+            requests:
+              memory: "600Mi"
+              cpu: "150m"
             limits:
               memory: "500Mi"
               cpu: "100m"

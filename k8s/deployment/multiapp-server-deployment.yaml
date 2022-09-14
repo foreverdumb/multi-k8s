@@ -17,11 +17,11 @@ spec:
     spec:
       containers:
         - name: multiapp-server
-          image: cygnetops/multi-server-pgfix-5-11
+          image: home1docker1/multi-server
           resources:
             requests:
-              memory: "600Mi"
-              cpu: "150m"
+              memory: "500Mi"
+              cpu: "100m"
             limits:
               memory: "605Mi"
               cpu: "155m"

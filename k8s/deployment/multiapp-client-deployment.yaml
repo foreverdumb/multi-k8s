@@ -17,11 +17,11 @@ spec:
     spec:
       containers:
         - name: multiapp-client
-          image: stephengrider/multi-client
+          image: home1docker1/multi-client
           resources:
             requests:
-              memory: "600Mi"
-              cpu: "150m"
+              memory: "500Mi"
+              cpu: "100m"
             limits:
               memory: "605Mi"
               cpu: "155m"

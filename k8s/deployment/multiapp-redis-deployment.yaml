@@ -25,7 +25,7 @@ spec:
           image: redis:latest
           resources:
             requests:
-              memory: "500Mi"
+              memory: "300Mi"
               cpu: "100m"
             limits:
               memory: "605Mi"

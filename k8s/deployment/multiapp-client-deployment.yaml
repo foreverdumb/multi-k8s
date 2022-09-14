@@ -25,7 +25,7 @@ spec:
           image: home1docker1/multi-client
           resources:
             requests:
-              memory: "500Mi"
+              memory: "300Mi"
               cpu: "100m"
             limits:
               memory: "605Mi"

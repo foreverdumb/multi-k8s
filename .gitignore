@@ -1,2 +1,3 @@
 ./backup
 ./nginx
+./docker-compose.yaml
